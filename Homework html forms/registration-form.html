@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Registration form</title>
+</head>
+
+<body>
+    <form action="#" method="POST">
+        <table border="1" style="border-spacing: 0">
+<tbody>
+    <tr>
+        <th align="right"> Last Name</th>
+        <td><input type="text" name="lastName" value="Nakov" size="40"></td>
+    </tr>
+    <tr>
+        <th align="right">First Name</th>
+        <td><input type="text" name="firstName" value="Svetlin" size="40"></td>
+    </tr>
+    <tr>
+        <th align="right">Address</th>
+        <td><textarea rows="3" cols="25">17 Hristo Botev str. floor 3, apt. 12</textarea></td>
+    </tr>
+    <tr>
+        <th align="right">City</th>
+        <td><input type="text" name="city" value="Kaspichan" size="30" />
+            <strong>State</strong>
+            <input type="text" name="" size="2">
+        </td>
+    </tr>
+    <tr>
+        <th align="right">Zip/Postal Code</th>
+        <td><input type="text" name="zipPostalCode" value="9325" size="5"></td>
+    </tr>
+    <tr>
+        <th align="right">Country</th>
+        <td><select name="country_select">
+            <option value="Bulgaria" >Bulgaria</option>
+        </select></td>
+    </tr>
+    <tr>
+        <th align="right">Phone(country code,<br> area code, number</th>
+        <td>(+<input type="text" value="359" size="5"> ) <input type="text" value="88" size="5"> - <input type="text" value="8334343"
+                size="15"></td>
+    </tr>
+    <tr>
+        <th align="right">E-mail</th>
+        <td><input type="text" size="40" value="nakov@kaspichan.org" pattern="[^ @]*@[^ @].[^ @]"></td>
+    </tr>
+    <tr>
+        <th align="right">Birth Date</th>
+        <td>
+            Month
+            <input type="text" value="06" size="3"> Day
+            <input type="text" value="14"size="3"> Year(4 digit)
+            <input type="text" value="1980"size="6">
+        </td>
+    </tr>
+    <tr>
+        <th align="right">Gender</th>
+        <td>
+            <select name="select_gender" id="">
+                <option value="Male">Male</option>
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <th align="right">Starting date</th>
+        <td>
+            <input id="spring" name="choose_season" type="radio" value="spring" checked/>
+            <label for="spring">
+                 Spring 2006
+            </label>
+            <input id="summer" name="choose_season" type="radio" value="summer" />
+            <label for="summer">
+                 Summer 2006
+            </label>
+        </td>
+    </tr>
+    <tr>
+        <th align="right">Comments/Questions</th>
+        <td>
+            <textarea name="commentsQuestions" id="" cols="30" rows="5">Please send me mor information about the lodging.</textarea>
+        </td>
+    </tr>
+    <tr>
+        <td align="center" colspan="10" bgcolor="lightblue">
+            <input type="submit">
+            <input type="reset" value="Clear This Form">
+        </td>
+    </tr>
+</tbody>
+
+</table>
+</form>
+</body>
+
+</html>
